@@ -3,8 +3,10 @@
 /*
  *main -Entry point
  *
- * Return : Always 0 (success)
- * */
+ *Description: prints string
+ *
+ *Return : Always 0 (success)
+ */
 
 
 int main(void)
