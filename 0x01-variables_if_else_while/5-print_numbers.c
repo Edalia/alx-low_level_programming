@@ -1,20 +1,22 @@
 #include <stdio.h>
+
 /**
- *main - Entry point
+ *main -Entry
  *
  *Description: print 0-9
  *
- * Return: 0
+ *Return: 0
  */
-
 int main(void)
 {
 	int i;
 
 	for (i = 0; i < 10; i++)
-		putchar('0' + i);
+		printf("%d", i);
 
-	putchar('\n');
+	printf("\n");
 
 	return (0);
+
 }
+

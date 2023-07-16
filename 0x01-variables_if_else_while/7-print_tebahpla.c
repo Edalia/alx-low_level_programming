@@ -1,18 +1,19 @@
 #include <stdio.h>
+
 /**
  *main - Entry point
  *
- *Description: print 0-9
+ *Description: print alphabet reverse
  *
- * Return: 0
+ *Return: 0
  */
 
 int main(void)
 {
-	int i;
+	char a;
 
-	for (i = 0; i < 10; i++)
-		putchar('0' + i);
+	for (a = 'z'; a >= 'a'; a--)
+		putchar(a);
 
 	putchar('\n');
 
