@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <string.h>
+#include <_putchar.c>
 /**
  *main - Entry
  *
