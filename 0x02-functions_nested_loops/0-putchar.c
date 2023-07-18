@@ -1,4 +1,6 @@
-#include <_putchar.c>
+#include "main.h"
+#include <string.h>
+
 /**
  *main - Entry
  *
@@ -14,9 +16,9 @@ int main(void)
 	int len = strlen(string);
 
 	for (i = 0; i < len; i++)
-		putchar(string[i]);
+		_putchar(string[i]);
 
-	putchar('\n');
+	_putchar('\n');
 
 	return (0);
 }
