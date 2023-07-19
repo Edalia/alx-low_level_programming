@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  *print_alphabet_x10 - function
  *
@@ -10,9 +11,9 @@
 void print_alphabet_x10(void)
 {
 	char a = 'a';
-	int i = 1;
+	int i = 0;
 
-	while (i <= 10)
+	while (i <= 3)
 	{
 		while (a <= 'z')
 		{
@@ -20,9 +21,8 @@ void print_alphabet_x10(void)
 			a++;
 		}
 
+		putchar('\n');
 		i++;
-		_putchar('\n');
-
 	}
 
 }
