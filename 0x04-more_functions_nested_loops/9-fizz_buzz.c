@@ -30,8 +30,11 @@ int main(void)
 		}
 		else
 		{
-			printf("%d", i);
-			printf(" ");
+			if (i < 100)
+			{
+				printf("%d", i);
+				printf(" ");
+			}
 		}
 
 		i++;
