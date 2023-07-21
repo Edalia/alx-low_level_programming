@@ -24,10 +24,10 @@ void print_triangle(int size)
 			i = 1;
 			g = 1;
 
-			print_hash = size - (size - n); /*10 - 9 = 1*/
-			print_space = size - print_hash; /*10 - 1 = 9*/
+			print_hash = size - (size - n);
+			print_space = size - print_hash;
 
-			while (i <= print_space) /*0 <= 9*/
+			while (i <= print_space)
 			{
 				_putchar(' ');
 				i++;
