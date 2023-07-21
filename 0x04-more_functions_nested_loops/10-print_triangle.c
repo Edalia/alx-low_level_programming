@@ -1,5 +1,11 @@
 #include "main.h"
-
+/**
+ *print_triangle - print triangle shape
+ *
+ *@size: param to decide number
+ *
+ *Return: void
+ */
 void print_triangle(int size)
 {
 	int i, t;
