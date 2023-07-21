@@ -8,7 +8,8 @@
  */
 void print_triangle(int size)
 {
-	int i, t;
+	int i, g, n;
+	int print_hash, print_space;
 
 	if (size <= 0)
 	{
@@ -16,20 +17,31 @@ void print_triangle(int size)
 	}
 	else
 	{
-		i = 0;
+		n = 1;
 
-		while (i < size)
+		while (n <= size)
 		{
-			t = 0;
-			while (t < size)
+			i = 1;
+			g = 1;
+
+			print_hash = size - (size - n); /*10 - 9 = 1*/
+			print_space = size - print_hash; /*10 - 1 = 9*/
+
+			while (i <= print_space) /*0 <= 9*/
 			{
-				_putchar('#');
-				t++;
+				_putchar(' ');
+				i++;
 			}
 
-			i++;
+			while (g <= print_hash)
+			{
+				_putchar('#');
+				g++;
+			}
 			_putchar('\n');
+
+			n++;
 		}
-		_putchar('\n');
+
 	}
 }
