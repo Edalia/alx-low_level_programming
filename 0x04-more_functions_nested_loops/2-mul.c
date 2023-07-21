@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*mult - multiply integers
+*mul - multiply integers
 *@a: 1st integer
 *@b: 2nd integer
 *Return: result
