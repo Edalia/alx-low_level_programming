@@ -11,11 +11,12 @@ void print_triangle(int size)
 	else
 	{
 		i = 0;
-		
-		while(i < size)
-		{	
+
+		while (i < size)
+		{
 			t = 0;
-			while (t < size){
+			while (t < size)
+			{
 				_putchar('#');
 				t++;
 			}
