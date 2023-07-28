@@ -9,17 +9,10 @@
 */
 char *cap_string(char *c)
 {
+	char separator[50] = "       ,.!;?\"(){}";
+	char *word[100];
+	char cpy[100] = strtok(c, separator);
+	strcpy(word, cpy);
 
-  /*char separator[50] = "       ,.!;?\"(){}";*/
-        int i = 0;
-        int l = strlen(c);
-        char a[100];
-        
-        while(i < l)
-        {
-	  *a[i] = c[i];
-		i++;
-	}
-
-	return *a;
+	 return word;
 }
