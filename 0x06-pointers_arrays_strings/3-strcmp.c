@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
  *_strcmp - compare string
  *@s1: dest string
@@ -9,13 +10,13 @@
 int _strcmp(char *s1, char *s2)
 {
 	if (s1 > s2)
-		return (15);
+		return (strcmp(s2, s1));
 
 	else if (s1 == s2)
-		return (0);
+		return (strcmp(s2, s1));
 
 	else if (s1 < s2)
-		return (-15);
+		return (strcmp(s2, s1));
 
 	else
 		return (0);
