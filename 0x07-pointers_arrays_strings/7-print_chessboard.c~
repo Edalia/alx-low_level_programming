@@ -1,0 +1,28 @@
+#include "main.h"
+#include <string.h>
+/**
+ *print_chessboard - print 8x8 chessboard
+ *@a[8]: array with 8 column
+ *Return: void
+ */
+
+void print_chessboard(char (*a)[8])
+{
+	int i = 0;
+	int r = sizeof(*a);
+
+	while (i < r)
+	{
+		int x = 0;
+
+		while (x < 8)
+		{
+			_putchar(a[i][x]);
+			x++;
+		}
+
+		i++;
+
+		_putchar('\n');
+	}
+}
